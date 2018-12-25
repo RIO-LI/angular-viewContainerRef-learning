@@ -1,5 +1,5 @@
 {
-  "name": "dom-as-viewcontaner",
+  "name": "component-insert-into-dom-viewcontaner",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
