@@ -1,5 +1,5 @@
 {
-  "name": "component-insert-into-dom-viewcontaner",
+  "name": "ngtemplate-insert-into-dom-viewcontainer",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
