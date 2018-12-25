@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VcrComponent } from './vcr.component';
+import { ViewContainerComponent } from './view-container.component';
 
-describe('VcrComponent', () => {
-  let component: VcrComponent;
-  let fixture: ComponentFixture<VcrComponent>;
+describe('ViewContainerComponent', () => {
+  let component: ViewContainerComponent;
+  let fixture: ComponentFixture<ViewContainerComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ VcrComponent ]
+      declarations: [ ViewContainerComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VcrComponent);
+    fixture = TestBed.createComponent(ViewContainerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

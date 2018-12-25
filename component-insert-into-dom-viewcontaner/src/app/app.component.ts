@@ -1,5 +1,5 @@
 import { Component, ViewChild, ViewContainerRef, AfterViewInit, ComponentFactoryResolver, Injector, ComponentRef } from '@angular/core';
-import { VcrComponent } from './vcr/vcr.component';
+import { BeInsertComponent } from './be-insert/be-insert.component';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +16,7 @@ export class AppComponent implements AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    const cmpRef: ComponentRef<VcrComponent> = this.cfr.resolveComponentFactory(VcrComponent).create(this.injector);
+    const cmpRef: ComponentRef<BeInsertComponent> = this.cfr.resolveComponentFactory(BeInsertComponent).create(this.injector);
 
     this.container.insert(cmpRef.hostView);
 

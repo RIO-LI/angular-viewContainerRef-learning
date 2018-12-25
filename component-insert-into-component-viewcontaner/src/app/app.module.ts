@@ -2,19 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { BeInsertComponent } from './be-insert/be-insert.component';
+import { ViewContainerComponent } from './view-container/view-container.component';
+import { BeInsertedComponent } from './be-inserted/be-inserted.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BeInsertComponent
+    ViewContainerComponent,
+    BeInsertedComponent
   ],
   imports: [
     BrowserModule
   ],
-  entryComponents: [
-    BeInsertComponent
-  ],
+  entryComponents: [BeInsertedComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
